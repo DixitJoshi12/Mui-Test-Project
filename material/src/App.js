@@ -1,10 +1,18 @@
 import './App.css';
-import MuiButtons from './atoms/MuiButtons';
+
+import {BrowserRouter as Router } from "react-router-dom";
+
+import MuiNavigationBar from './organisms/navigation/MuiNavigationBar';
 
 function App() {
   return (
     <div className="App">
-      <MuiButtons >Text</MuiButtons>
+      <Router>
+        
+      </Router>
+      <MuiNavigationBar />
+      {/* <MuiHeading />
+      <MuiNavLinks /> */}
     </div>
   );
 }

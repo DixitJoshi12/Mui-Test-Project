@@ -2,7 +2,7 @@ import {Button} from "@mui/material";
 
 const MuiButtons = (props) => {
   return (
-    <Button variant="text">{props.children}</Button>
+    <Button variant="text" color='secondary' size="large" color='inherit'>{props.children}</Button>
   )
 }
 
